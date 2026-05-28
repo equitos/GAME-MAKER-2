@@ -1,0 +1,10 @@
+{
+  "FolderOrderSettings":[
+    {"name":"obj","order":1,"path":"folders/obj.yy",},
+    {"name":"config","order":1,"path":"folders/obj/config.yy",},
+    {"name":"spr","order":2,"path":"folders/spr.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Obj_map_cobra_comida","order":1,"path":"objects/Obj_map_cobra_comida/Obj_map_cobra_comida.yy",},
+  ],
+}
