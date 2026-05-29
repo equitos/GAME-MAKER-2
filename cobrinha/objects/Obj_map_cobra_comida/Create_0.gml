@@ -23,15 +23,14 @@ for(var _x=0; _x<t_x; _x++){
 /*------------------------*/
 
 vel_x = 1
-vel_y = 1
+vel_y = 0
 
 
-var cabesa_x = irandom_range(1,20)-1
-var cabesa_y = irandom_range(1,20)-1
+var cabesa_x = irandom_range(5,10)-1
+var cabesa_y = irandom_range(5,10)-1
 
-t_cobrinha = 2
+t_cobrinha = 10
 
-corpo_cobrinha = [[cabesa_x, cabesa_y]]
+cabesa = {x_:cabesa_x, y_:cabesa_y}
 map[cabesa_x][cabesa_y] = t_cobrinha
-
-alarm[0] = room_speed
+start = false
